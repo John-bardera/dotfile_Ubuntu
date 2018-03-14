@@ -1,0 +1,6 @@
+(define default-im-name 'anthy)
+(define-key generic-on-key? '("Henkan_Mode" "zenkaku-hankaku" "<Control> " "<Control>\\"))
+(define-key generic-off-key? '("Muhenkan" "zenkaku-hankaku" "<Control> " "<Control>\\"))
+(define-key anthy-extend-segment-key? '("<Control>o"))
+(define-key anthy-shrink-segment-key? '("<Control>i"))
+
